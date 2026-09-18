@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Subash S, Professor of Economics, IIT Madras. Research on foreign direct investment, global value chains, small firms and finance, and innovation.">
+<meta property="og:title" content="Subash S · Professor of Economics, IIT Madras">
+<meta property="og:description" content="Research on FDI, global value chains, small firms and innovation in emerging economies.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%231D5C4F'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%23F5F6F4' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<title>Subash S · Economics, IIT Madras</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#F5F6F4; --surface:#FFFFFF; --ink:#18201D; --muted:#5A6661; --line:#DCE1DD;
+  --accent:#1D5C4F; --accent-soft:#E3EEEA; --copper:#A5591F;
+  --serif:"Newsreader", Georgia, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111615; --surface:#171E1C; --ink:#E6ECE9; --muted:#9AA7A2; --line:#2A3431;
+    --accent:#7CC4B1; --accent-soft:#1D2E29; --copper:#E0A06B;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111615; --surface:#171E1C; --ink:#E6ECE9; --muted:#9AA7A2; --line:#2A3431;
+  --accent:#7CC4B1; --accent-soft:#1D2E29; --copper:#E0A06B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;padding-inline:16px}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:300px minmax(0,1fr);gap:64px;padding-block:56px 80px}
+@media (max-width:860px){.wrap{grid-template-columns:1fr;gap:32px;padding-block:28px 56px}}
+
+/* Sidebar */
+aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 40px);align-self:start;display:flex;flex-direction:column;gap:22px}
+@media (max-width:860px){aside{position:static}}
+.mono-mark{width:64px;height:64px;border-radius:50%;background:var(--accent);color:var(--bg);display:grid;place-items:center;font-family:var(--serif);font-size:28px;font-style:italic}
+.name{font-family:var(--serif);font-weight:500;font-size:44px;line-height:1.02;letter-spacing:-.01em;margin:0}
+.role{margin:0;color:var(--muted);font-size:15px;line-height:1.5}
+.role strong{color:var(--ink);font-weight:500}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--line)}
+nav a{display:block;padding:4px 0 4px 14px;margin-left:-1px;border-left:2px solid transparent;color:var(--muted);text-decoration:none;font-size:14px}
+nav a:hover{color:var(--ink)}
+nav a.on{color:var(--ink);border-left-color:var(--accent);font-weight:500}
+@media (max-width:860px){
+  nav ul{flex-direction:row;flex-wrap:wrap;border-left:0;gap:6px}
+  nav a{border:1px solid var(--line);border-radius:999px;padding:4px 12px;margin:0}
+  nav a.on{border-color:var(--accent)}
+}
+.contact{font-size:13.5px;color:var(--muted);line-height:1.55;border-top:1px solid var(--line);padding-top:18px}
+.contact b{display:block;color:var(--ink);font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.contact a{font-family:var(--mono);font-size:13px}
+
+/* Main */
+main{display:flex;flex-direction:column;gap:72px;min-width:0}
+section{scroll-margin-top:32px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);margin:0 0 10px}
+h2{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1.15;margin:0 0 22px;text-wrap:balance}
+h3{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:36px 0 14px}
+.lede{font-family:var(--serif);font-size:25px;line-height:1.4;margin:0 0 26px;max-width:32ch;text-wrap:balance}
+.lede em{color:var(--accent)}
+p{max-width:66ch}
+.figures{display:flex;flex-wrap:wrap;gap:10px 36px;margin:30px 0 0;padding:18px 0 0;border-top:1px solid var(--line)}
+.figures div{display:flex;align-items:baseline;gap:8px;font-size:14px;color:var(--muted)}
+.figures span{font-family:var(--serif);font-size:30px;color:var(--ink);font-variant-numeric:tabular-nums}
+
+.themes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:30px}
+@media (max-width:560px){.themes{grid-template-columns:1fr}}
+.theme{background:var(--surface);padding:20px 22px}
+.theme h4{margin:0 0 6px;font-family:var(--serif);font-weight:500;font-size:20px}
+.theme p{margin:0;font-size:14.5px;color:var(--muted)}
+.theme .n{font-family:var(--mono);font-size:12px;color:var(--accent);margin-top:10px;display:block}
+.editor{margin-top:26px;font-size:15px;color:var(--muted)}
+.editor strong{color:var(--ink);font-weight:500}
+
+/* Publications */
+.book{display:grid;grid-template-columns:74px minmax(0,1fr);gap:20px;align-items:start;background:var(--surface);border:1px solid var(--line);padding:20px}
+.spine{height:100px;background:var(--accent);color:var(--bg);font-family:var(--serif);font-size:12px;font-style:italic;display:flex;align-items:flex-end;padding:8px;line-height:1.2}
+.book .t{font-family:var(--serif);font-size:21px;line-height:1.3;margin:0 0 4px}
+.book .m{font-size:14px;color:var(--muted);margin:0}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:8px}
+.search{flex:1 1 240px;min-width:0;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:14.5px;padding:9px 12px;border-radius:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--line);background:transparent;color:var(--muted);padding:5px 12px;border-radius:999px;cursor:pointer}
+.chip:hover{color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted);margin:10px 0 0}
+.year-group{display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+@media (max-width:560px){.year-group{grid-template-columns:1fr;gap:4px}}
+.yr{font-family:var(--mono);font-size:14px;color:var(--copper);font-weight:500;padding-top:2px}
+.pubs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.pub .t{font-family:var(--serif);font-size:18.5px;line-height:1.35;margin:0}
+.pub .t a{color:var(--ink);text-decoration:none}
+.pub .t a:hover{color:var(--accent);text-decoration:underline}
+.pub .a{font-size:14px;color:var(--muted);margin:2px 0 0}
+.pub .a b{color:var(--ink);font-weight:500}
+.pub .j{font-style:italic}
+.pub .note{display:inline-block;font-size:12px;color:var(--copper);margin-top:4px}
+.empty{color:var(--muted);font-style:italic;padding:16px 0}
+ol.chapters{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px}
+ol.chapters li{border-left:2px solid var(--line);padding-left:14px}
+
+/* Students */
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.person{background:var(--surface);border:1px solid var(--line);padding:16px 18px;display:flex;flex-direction:column;gap:4px}
+.person .nm{font-family:var(--serif);font-size:19px;margin:0}
+.person .th{font-size:13.5px;color:var(--muted);margin:0;line-height:1.45}
+.person .now{margin-top:auto;padding-top:10px;font-size:13px;color:var(--accent);font-weight:500}
+.person .yr2{font-family:var(--mono);font-size:12px;color:var(--copper)}
+.alumni{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.alumni li{display:grid;grid-template-columns:70px minmax(0,1fr) minmax(0,220px);gap:16px;padding:14px 0;border-bottom:1px solid var(--line);align-items:baseline}
+@media (max-width:640px){.alumni li{grid-template-columns:56px minmax(0,1fr)}.alumni .pl{grid-column:2}}
+.alumni .y{font-family:var(--mono);font-size:13px;color:var(--copper)}
+.alumni .nm{font-family:var(--serif);font-size:18px}
+.alumni .th{display:block;font-size:13.5px;color:var(--muted)}
+.alumni .pl{font-size:13.5px;color:var(--accent);font-weight:500}
+
+/* Projects */
+.projects{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.projects li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid var(--line)}
+@media (max-width:560px){.projects li{grid-template-columns:1fr;gap:2px}}
+.projects .d{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.projects .t{font-family:var(--serif);font-size:18.5px;line-height:1.35;margin:0}
+.projects .s{font-size:14px;color:var(--muted);margin:3px 0 0}
+.tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:1px 7px;border-radius:3px;background:var(--accent-soft);color:var(--accent);margin-right:6px;vertical-align:1px}
+
+/* Teaching */
+.teach{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+@media (max-width:640px){.teach{grid-template-columns:1fr}}
+.course{padding:14px 0;border-top:1px solid var(--line)}
+.course .t{font-family:var(--serif);font-size:19px;margin:0}
+.course .s{font-size:14px;color:var(--muted);margin:2px 0 0}
+.plain{margin:0;padding:0;list-style:none;font-size:15px;color:var(--muted);columns:2;column-gap:24px}
+.plain li{padding:6px 0;border-top:1px solid var(--line);break-inside:avoid}
+
+/* Media */
+.oped{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.oped li{padding:13px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 18px;align-items:baseline}
+.oped .t{font-family:var(--serif);font-size:18px;line-height:1.35}
+.oped .o{font-size:13px;color:var(--muted);white-space:nowrap}
+.oped .x{grid-column:1/-1;font-size:13.5px;color:var(--muted)}
+@media (max-width:560px){.oped li{grid-template-columns:1fr}.oped .o{white-space:normal}}
+
+footer{max-width:1120px;margin:0 auto;padding-block:24px 40px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <aside>
+    <div class="mono-mark" aria-hidden="true">S</div>
+    <div>
+      <h1 class="name">Subash S</h1>
+    </div>
+    <p class="role"><strong>Professor of Economics</strong><br>Department of Humanities and Social Sciences<br>Indian Institute of Technology Madras</p>
+    <nav aria-label="Sections">
+      <ul id="nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#students">Students</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#media">Media &amp; op-eds</a></li>
+      </ul>
+    </nav>
+    <div class="contact">
+      <b>Contact</b>
+      Dept. of Humanities and Social Sciences<br>IIT Madras, Chennai 600036<br>
+      Tel <a href="tel:+914422574507">044-2257 4507</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <p class="eyebrow">About</p>
+      <p class="lede">I study how firms in emerging economies grow, <em>go global</em>, and innovate — and what holds them back.</p>
+      <p>I am Professor of Economics at IIT Madras. My research uses firm-level data, mostly from Indian manufacturing, to examine foreign direct investment and technology spillovers, the financing constraints of small enterprises, participation in global value chains, and the drivers of innovation.</p>
+      <div class="themes">
+        <div class="theme"><h4>Foreign direct investment</h4><p>Spillovers from multinationals, outward FDI, and industrial agglomeration.</p><span class="n" data-count="fdi"></span></div>
+        <div class="theme"><h4>Global value chains &amp; trade</h4><p>Who joins GVCs, who survives in export markets, and why.</p><span class="n" data-count="gvc"></span></div>
+        <div class="theme"><h4>Small firms &amp; finance</h4><p>Credit access, gender and caste of ownership, informality, and MSME policy.</p><span class="n" data-count="fin"></span></div>
+        <div class="theme"><h4>Innovation &amp; technology</h4><p>R&amp;D, digitalisation, automation, and their effects on firms and workers.</p><span class="n" data-count="inn"></span></div>
+      </div>
+      <p class="editor">Associate Editor, <strong>Asian Economic Journal</strong> (Wiley) and <strong>Indian Economic Journal</strong> (Sage).</p>
+      <div class="figures">
+        <div><span>60</span>journal articles</div>
+        <div><span>6</span>book chapters</div>
+        <div><span>1</span>monograph</div>
+        <div><span>6</span>PhDs supervised</div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <p class="eyebrow">Research</p>
+      <h2>Publications</h2>
+
+      <div class="book">
+        <div class="spine" aria-hidden="true">Routledge<br>2021</div>
+        <div>
+          <p class="eyebrow" style="margin-bottom:4px">Book</p>
+          <p class="t"><a href="https://www.routledge.com/Small-Firm-Ownership-and-Credit-Constraints-in-India/SN-Sasidharan/p/book/9780367135126" style="color:inherit">Small Firm Ownership and Credit Constraints in India</a></p>
+          <p class="m">Rajesh Raj S. N. and Subash S. · London &amp; New York: Routledge</p>
+        </div>
+      </div>
+
+      <h3>Journal articles</h3>
+      <div class="tools">
+        <label for="q" style="position:absolute;left:-9999px">Search publications</label>
+        <input id="q" class="search" type="search" placeholder="Search title, co-author or journal">
+        <div class="chips" id="chips" role="group" aria-label="Filter by theme"></div>
+      </div>
+      <p class="count" id="count"></p>
+      <div id="pubList"></div>
+
+      <h3>Book chapters</h3>
+      <ol class="chapters" id="chapters"></ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <p class="eyebrow">Funded research</p>
+      <h2>Projects</h2>
+      <ul class="projects" id="projList"></ul>
+    </section>
+
+    <!-- STUDENTS -->
+    <section id="students">
+      <p class="eyebrow">Supervision</p>
+      <h2>Students</h2>
+      <h3 style="margin-top:0">Current group</h3>
+      <div class="people">
+        <div class="person"><span class="yr2">Post-doc · since Jul 2025</span><p class="nm">Prabin Chauhan Chhetri</p><p class="th">Institutional economics, firm growth, and global value chains. PhD, Sikkim University.</p></div>
+        <div class="person"><span class="yr2">PhD · since Jan 2021</span><p class="nm">Jayati Chatterjee</p><p class="th">Small firms and industrial development. MA, Presidency University.</p></div>
+        <div class="person"><span class="yr2">PhD · since Jan 2024</span><p class="nm">Melvin Vincent</p><p class="th">Global value chains. MA, Christ University.</p></div>
+      </div>
+      <h3>Graduated — and where they are now</h3>
+      <ul class="alumni" id="alumni"></ul>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching">
+      <p class="eyebrow">Classroom</p>
+      <h2>Teaching</h2>
+      <div class="teach">
+        <div>
+          <h3 style="margin-top:0">Currently teaching</h3>
+          <div class="course"><p class="t">Principles of Economics</p><p class="s">B.Tech students, IIT Madras</p></div>
+          <div class="course"><p class="t">Applied Industrial Organization</p><p class="s">Final-year MA Economics</p></div>
+        </div>
+        <div>
+          <h3 style="margin-top:0">Previously taught</h3>
+          <ul class="plain">
+            <li>Microeconomics I &amp; II</li><li>Macroeconomics I &amp; II</li><li>International Economics</li><li>Economics of Industrial Organization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media">
+      <p class="eyebrow">Public writing</p>
+      <h2>Media &amp; op-eds</h2>
+      <ul class="oped" id="oped"></ul>
+      <h3>Research in the news</h3>
+      <ul class="oped">
+        <li><span class="t"><a href="https://www.thehindu.com/news/national/tamil-nadu/poor-households-spend-more-on-water-says-study/article7610879.ece">Poor households spend more on water, says study</a></span><span class="o">The Hindu</span></li>
+        <li><span class="t"><a href="https://www.newindianexpress.com/cities/chennai/2015/aug/19/Feeling-the-Water-Pinch-801611.html">Feeling the water pinch</a></span><span class="o">The New Indian Express</span></li>
+      </ul>
+    </section>
+  </main>
+</div>
+<footer><div>© Subash S · Department of Humanities and Social Sciences, IIT Madras</div></footer>
+
+<script>
+const ME = "Subash S";
+// [year, authors, title, journal, details, url, note]
+const P = [
+[2026,"Radeef Chundakkadan, Subash S.","Gender Equality and Innovation","Industrial and Corporate Change","35(3), 579","https://doi.org/10.1093/icc/dtaf033"],
+[2026,"Renjith Ramachandran, Subash S., Shandre M. Thangavelu","GVC Participation and Labour Market Disparities: Exploring the Effects on Employment and Wage Inequality","World Economy","49(3), 570–588","https://doi.org/10.1111/twec.70047"],
+[2026,"Ketan Reddy, Subash S., Shandre M. Thangavelu","Urban Amenities, Productive Performance, and Global Value Chain Activities of Indian Firms","Review of Development Economics","30(3), 1785–1800","https://doi.org/10.1111/rode.70089"],
+[2025,"Ketan Reddy, Subash S.","Digitalization, Firm Performance, and Internationalization of Micro Firms in India","Asia Pacific Sustainable Development Journal","32(2), 77–103",""],
+[2025,"Ketan Reddy, Subash S., Shandre M. Thangavelu","Does Economic Policy Uncertainty Impact Global Value Chain Participation of Indian Firms? The Role of Financial Constraints","Economic Modelling","152, 107243","https://doi.org/10.1016/j.econmod.2025.107243"],
+[2025,"Radeef Chundakkadan, Subash S., Kausik Chaudhuri","Automation, Firm Performance and Employment: Evidence from Developing Countries","Journal of Evolutionary Economics","35, 873–900","https://doi.org/10.1007/s00191-025-00913-w"],
+[2025,"Radeef Chundakkadan, Subash S., Ketan Reddy","The Role of Export Incentives and Bank Credit on the Export Survival of Firms in India During COVID-19","Emerging Markets Finance and Trade","61(10), 3110–3127","https://doi.org/10.1080/1540496X.2025.2474718"],
+[2025,"Sasidaran Gopalan, Ketan Reddy, Subash S.","Can Participation in Global Value Chains Improve Female Labor Force Participation? A Firm-Level Empirical Investigation","Review of World Economics","161, 611–634","https://doi.org/10.1007/s10290-024-00572-2"],
+[2025,"Sarthak Basu, Subash S.","Productivity, Investment Slowdown, and Misallocation: Evidence from Indian Manufacturing","Journal of Productivity Analysis","63, 17–36","https://doi.org/10.1007/s11123-024-00730-6"],
+[2025,"Ketan Reddy, Subash S.","Trade Facilitation and Global Value Chain Participation: Cross-country Analysis","Foreign Trade Review","60(3), 291–313","https://doi.org/10.1177/00157325241239720"],
+[2024,"Ketan Reddy, Subash S., Radeef Chundakkadan","Firm Automation and Global Value-Chain Participation: Cross-country Analysis","Applied Economics","57(3), 317–337","http://dx.doi.org/10.1080/00036846.2024.2303619"],
+[2023,"Ketan Reddy, Subash S.","Global Value Chains, Productivity and Markup: Evidence from India","International Review of Economics and Finance","89, 250–271","https://doi.org/10.1016/j.iref.2023.10.005"],
+[2023,"Bino Paul, Kamal Kumar Murari, Unmesh Patnaik, Chandra Sekhar Bahinipati, Subash S.","Sustainability Transition for Indian Agriculture","Scientific Reports","13(1)","https://doi.org/10.1038/s41598-023-34092-0"],
+[2023,"Ketan Reddy, Subash S.","Digitalization and Global Value Chain Participation: Firm-Level Evidence from Indian Manufacturing","Journal of Industrial and Business Economics","","https://doi.org/10.1007/s40812-023-00270-4"],
+[2023,"Radeef Chundakkadan, Subash S.","The Role of Government Support on E-commerce and Firm Innovation during Pandemic Crisis","Economic Analysis and Policy","","https://doi.org/10.1016/j.eap.2023.04.021"],
+[2023,"Ketan Reddy, Subash S.","Innovative Efforts and Export Market Survival: Evidence from an Emerging Economy","Technological Forecasting and Social Change","186, 122109","https://doi.org/10.1016/j.techfore.2022.122109"],
+[2022,"Ketan Reddy, Subash S., Nadia Doytch","Outward Foreign Direct Investment and Domestic Innovation Efforts: Evidence from India","Journal of Economics and Business","122, 106084",""],
+[2022,"Radeef Chundakkadan, Rajesh Raj S. N., Subash S.","Small Firms amidst COVID-19: Financial Constraints and Role of Government Support","Economic Notes","51(3)","https://doi.org/10.1111/ecno.12206"],
+[2022,"Ketan Reddy, Subash S., Shandre Thangavelu","Does Servicification of Manufacturing Increase the GVC Activities of Firms? Case of India","World Economy","","https://doi.org/10.1111/twec.13318"],
+[2022,"Renjith Ramachandran, Subash S.","Country of Origin and Industry FDI Agglomeration of MNEs: Evidence from India","Transnational Corporations Review","","https://doi.org/10.1080/19186444.2022.2082226"],
+[2022,"Ketan Reddy, Subash S.","Servicification and Global Value Chain Survival: Firm-Level Evidence from India","Australian Economic Papers","","https://doi.org/10.1111/1467-8454.12255"],
+[2022,"Sasidaran Gopalan, Ketan Reddy, Subash S.","Does Digitalization Spur Global Value Chain Participation? Firm-Level Evidence from Emerging Markets","Information Economics and Policy","","https://doi.org/10.1016/j.infoecopol.2022.100972"],
+[2022,"Radeef Chundakkadan, Subash S.","Gender Gap and Access to Finance: A Cross-Country Analysis","Review of Development Economics","26(1), 180–207","https://doi.org/10.1111/rode.12830"],
+[2021,"Ketan Reddy, Subash S.","A Portrait of Global Value Chain Linkages of Indian Manufacturing","Journal of Asian Economic Integration","","https://doi.org/10.1177/26316846211039419"],
+[2021,"Ketan Reddy, Subash S.","Financial Constraints and Global Value Chain Participation: Evidence from India","Journal of International Trade and Economic Development","30(5), 739–765","https://doi.org/10.1080/09638199.2021.1900343"],
+[2021,"Arfat Sofi, Subash S., M. Y. Bhat","Economic Growth and Club Convergence: Is There a Neighbor's Effect?","International Journal of Finance & Economics","","https://doi.org/10.1002/ijfe.2545"],
+[2021,"Renjith Ramachandran, Subash S.","Colocation of Formal and Informal Manufacturing and Firm Performance: Evidence from India","Indian Economic Journal","69(4), 600–613","https://doi.org/10.1177/00194662211040142"],
+[2021,"Ketan Reddy, Radeef Chundakkadan, Subash S.","Firm Innovation and Global Value Chain Participation","Small Business Economics","57, 1995–2015","https://doi.org/10.1007/s11187-020-00391-3"],
+[2021,"Padmaja Mundakkad, Subash S.","Financing Constraints and Exports: Evidence from India","Journal of Economics and Finance","45, 118–145","https://doi.org/10.1007/s12197-020-09532-6"],
+[2021,"Radeef Chundakkadan, Subash S.","Central Bank's Money Market Operations and Daily Stock Returns","International Journal of Finance and Economics","26(1), 136–152","https://doi.org/10.1002/ijfe.1781"],
+[2020,"Renjith Ramachandran, Subash S., Nadia Doytch","Foreign Direct Investment and Industrial Agglomeration: Evidence from India","Economic Systems","44(4), 1–12","https://doi.org/10.1016/j.ecosys.2020.100777"],
+[2020,"Subash S.","FDI and Spillovers in India: Any Policy Lessons from Existing Studies?","Indian Economic Journal","68(2), 269–280",""],
+[2020,"Radeef Chundakkadan, Subash S.","Financial Constraints, Government Support, and Firm Innovation: Empirical Evidence from Developing Economies","Innovation and Development","10(3), 279–301","https://doi.org/10.1080/2157930X.2019.1594680"],
+[2020,"Ketan Reddy, Subash S.","Will COVID-19 Change the Landscape of Financing Innovation in India?","Economic and Political Weekly","55(47), 22–24",""],
+[2020,"Kausik Chaudhuri, Subash S., Rajesh Raj S. N.","Gender, Small Firm Ownership and Credit Access: Some Insights from India","Small Business Economics","54, 1165–1181","https://doi.org/10.1007/s11187-018-0124-3"],
+[2020,"Radeef Chundakkadan, Subash S.","Central Bank's Liquidity Provisions and Firms' Financial Constraints","Economic Modelling","89, 245–255","https://doi.org/10.1016/j.econmod.2019.10.025"],
+[2020,"Ketan Reddy, Subash S.","Driving Small and Medium-Sized Enterprise Participation in Global Value Chains: Evidence from India","ADBI Working Paper 1118","Asian Development Bank Institute","https://www.adb.org/publications/driving-sme-participation-global-value-chains-evidence-india"],
+[2020,"Renjith Ramachandran, Ketan Reddy, Subash S.","Agglomeration and Productivity: Evidence from Indian Manufacturing","Studies in Microeconomics","8(1)",""],
+[2020,"Sasidaran Gopalan, Subash S.","Financial Liberalization and Access to Credit in Emerging and Developing Economies: A Firm-Level Empirical Investigation","Journal of Economics and Business","107","https://doi.org/10.1016/j.jeconbus.2019.105861","Finalist, JEB Best Article Award 2020 · reprinted in Routledge volume"],
+[2019,"R. K. Amit, Subash S.","Measuring Affordability of Access to Clean Water: A Coping Cost Approach","Resources, Conservation and Recycling","141, 410–417","https://doi.org/10.1016/j.resconrec.2018.11.003","Covered by The Hindu and The New Indian Express"],
+[2019,"Alex Eapen, Jihye Yeo, Subash S.","Finance Constraints and Technology Spillovers from Foreign to Domestic Firms","Economic Modelling","76, 50–62","https://doi.org/10.1016/j.econmod.2018.07.019"],
+[2019,"Radeef Chundakkadan, Subash S.","Liquidity Pull-back and Predictability of Government Security Yield Volatility","Economic Modelling","77, 124–132","https://doi.org/10.1016/j.econmod.2018.07.018"],
+[2018,"Rajesh Raj S. N., Subash S.","Does the Caste of the Firm Owner Play a Role in Access to Finance for Small Enterprises? Evidence from India","Developing Economies","56(4), 267–296","https://doi.org/10.1111/deve.12183"],
+[2018,"Arfat Ahmad Sofi, Subash S.","Do Indian States Mimic, Compete or Interact in Local Public Spending? A Spatial Econometric Analysis","Asian Economic Journal","32(2), 187–213","https://doi.org/10.1111/asej.12148"],
+[2018,"Subash S., M. Padmaja","Do Financing Constraints Impact Outward Foreign Direct Investment? Evidence from India","Asian Development Review","35(1), 108–132","https://doi.org/10.1162/adev_a_00107"],
+[2017,"M. Padmaja, Subash S.","Sunk Costs, Firm Heterogeneity, Export Market Entry and Exit: Evidence from India","Journal of Quantitative Economics","15(2), 367–393","https://doi.org/10.1007/s40953-016-0056-1"],
+[2017,"Surender Rao Komera, Jijo Lukose, Subash S.","Does Business Group Affiliation Encourage R&D Activities? Evidence from India","Asia Pacific Journal of Management","35(4), 887–917","https://link.springer.com/article/10.1007/s10490-017-9530-3"],
+[2015,"Subash S., Jijo Lukose, Surender Rao Komera","Financing Constraints and Investments in R&D: Evidence from Indian Manufacturing Firms","Quarterly Review of Economics and Finance","55(1), 29–39","https://doi.org/10.1016/j.qref.2014.07.002"],
+[2015,"Rajesh Raj S. N., Subash S.","Impact of Foreign Trade on Employment and Wages in Indian Manufacturing","South Asia Economic Journal","16(2), 209–232","https://doi.org/10.1177/1391561415598457"],
+[2014,"Subash S., Rajesh Raj S. N.","The Growth Barriers of Informal Sector Enterprises: Evidence from India","Developing Economies","52(4), 351–375","https://doi.org/10.1111/deve.12057"],
+[2014,"Harisankar Jagdeesh, Subash S.","Do Stronger IPR Regimes Influence R&D Efforts? Evidence from the Indian Pharmaceutical Industry","Global Business Review","15(2), 189–204","https://doi.org/10.1177/0972150914523571"],
+[2011,"Subash S., Vinish Kathuria","Foreign Direct Investment and R&D: Substitutes or Complements — A Case of Indian Manufacturing","World Development","39(7), 1226–1239","https://doi.org/10.1016/j.worlddev.2010.05.012"],
+[2011,"Subash S., K. J. Joseph","Multinational Enterprises and Export Performance: Empirical Evidence from Indian Manufacturing Industries","Economics, Management and Financial Markets","6(1), 239–256",""],
+[2010,"Anabel Marin, Subash S.","The Heterogeneity of MNC Subsidiaries and Technology Spillovers: Explaining Positive and Negative Effects in Emerging Economies","Research Policy","39(10), 1227–1241","https://doi.org/10.1016/j.respol.2010.06.001"],
+[2010,"Chiara Franco, Subash S.","MNEs, Technological Efforts and Channels of Export Spillovers: An Analysis of Indian Manufacturing Industries","Economic Systems","32(3), 270–288","https://doi.org/10.1016/j.ecosys.2010.02.005"],
+[2007,"Subash S., A. Ramanathan","FDI and Spillovers: Evidence from Indian Manufacturing Industries","International Journal of Trade and Global Markets","1(1), 5–22","http://dx.doi.org/10.1504/IJTGM.2007.015573"],
+[2005,"Bino Paul G. D., Subash S., A. Ramanathan","Concentration in Knowledge Output: A Case of Economics Journals","European Journal of Comparative Economics","2(2), 261–279",""],
+[2005,"Justin Paul, Subash S.","International Migration and its Impact: Some Perspectives","Management and Labour Studies","30(1), 38–50",""],
+[2004,"Subash S., Bino Paul G. D., A. Ramanathan","Technical Efficiency in Rice Production: An Application of Stochastic Frontier Analysis","Indian Journal of Regional Science","36(1), 118–126",""],
+[2002,"G. Sheshagiri, Subash S.","Dynamics of Lift Irrigation in Gujarat","Kurukshetra: A Journal on Rural Development","51(2), 44–46",""]
+];
+
+const THEMES = {
+  gvc:{label:"Value chains & trade", re:/value.chain|gvc|export|trade|servicification/i},
+  fdi:{label:"FDI & multinationals", re:/foreign direct|fdi|mne|mnc|multinational|spillover|agglomeration/i},
+  fin:{label:"Small firms & finance", re:/financ|credit|small|sme|informal|liquidity|central bank|caste|gender gap/i},
+  inn:{label:"Innovation & technology", re:/innovat|r&d|digital|automation|ipr|technolog|e-commerce/i}
+};
+const tagsOf = p => Object.keys(THEMES).filter(k => THEMES[k].re.test(p[2]));
+
+// theme counts on About
+document.querySelectorAll("[data-count]").forEach(el=>{
+  const k = el.dataset.count; const n = P.filter(p=>tagsOf(p).includes(k)).length;
+  el.textContent = n + " papers →"; el.style.cursor="pointer";
+  el.addEventListener("click",()=>{setTheme(k);document.getElementById("publications").scrollIntoView();});
+});
+
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const boldMe = a => esc(a).replace(/Subash S\.?/g, m=>"<b>"+m+"</b>");
+
+let theme = "all";
+const chips = document.getElementById("chips");
+[["all","All"],...Object.entries(THEMES).map(([k,v])=>[k,v.label])].forEach(([k,l])=>{
+  const b=document.createElement("button"); b.className="chip"; b.type="button"; b.dataset.k=k; b.textContent=l;
+  b.addEventListener("click",()=>setTheme(k)); chips.appendChild(b);
+});
+function setTheme(k){ theme=k; chips.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", c.dataset.k===k)); render(); }
+
+const q = document.getElementById("q");
+q.addEventListener("input", render);
+
+function render(){
+  const term = q.value.trim().toLowerCase();
+  const list = P.filter(p => (theme==="all" || tagsOf(p).includes(theme)) &&
+    (!term || (p[1]+" "+p[2]+" "+p[3]+" "+p[0]).toLowerCase().includes(term)));
+  document.getElementById("count").textContent = list.length===P.length ? `${P.length} articles, 2002–2026` : `Showing ${list.length} of ${P.length}`;
+  const byYear = {};
+  list.forEach(p => (byYear[p[0]] ||= []).push(p));
+  const years = Object.keys(byYear).sort((a,b)=>b-a);
+  document.getElementById("pubList").innerHTML = years.length ? years.map(y => `
+    <div class="year-group"><div class="yr">${y}</div><ul class="pubs">${byYear[y].map(p=>`
+      <li class="pub">
+        <p class="t">${p[5]?`<a href="${p[5]}" target="_blank" rel="noopener">${esc(p[2])}</a>`:esc(p[2])}</p>
+        <p class="a">${boldMe(p[1])} · <span class="j">${esc(p[3])}</span>${p[4]?", "+esc(p[4]):""}</p>
+        ${p[6]?`<span class="note">${esc(p[6])}</span>`:""}
+      </li>`).join("")}</ul></div>`).join("") : `<p class="empty">No articles match that search.</p>`;
+}
+setTheme("all");
+
+// Chapters
+const C = [
+["2025","Jayati Chatterjee, Subash S.","Women-Led Firms, Digital Technology Adoption, and Access to Finance in India","in S. Shinozaki, P. J. Morgan, Y. Sawada (eds.), Strengthening the Ecosystem of Vibrant MSMEs for Resilient Growth in Asia and the Pacific. ADBI."],
+["2021","Ketan Reddy, Subash S.","Driving SME Participation in Global Value Chains: Evidence from India","in S. Urata (ed.), Enhancing SME Participation in Global Value Chains. ADBI."],
+["2020","Subash S., Rajesh Raj S. N.","MSMEs and COVID-19","in COVID-19: Challenges for the Indian Economy — Trade and Foreign Policy Effects. ASEAN-India Centre & EEPC India."],
+["2020","Radeef Chundakkadan, Subash S.","Innovation and Exports: Evidence from Indian Enterprises","in A. Raychaudhuri, P. De, S. Gupta (eds.), World Trade and India. New Delhi: Sage."],
+["2020","Arfat Ahmad Sofi, Subash S.","FDI, Labour Market and Welfare: How Inequality Navigates Welfare Loss","in K. Narayanan, N. S. Siddharthan (eds.), FDI, Technology and Innovation. Springer."],
+["2016","Surender Rao Komera, Jijo Lukose, Subash S.","Business Group Affiliation and Innovation in Medium and High-Technology Industries in India","in K. Narayanan, N. S. Siddharthan (eds.), Technology: Corporate and Social Dimensions. Springer."]
+];
+document.getElementById("chapters").innerHTML = C.map(c=>`<li class="pub"><p class="t">${esc(c[2])}</p><p class="a"><span style="font-family:var(--mono);color:var(--copper)">${c[0]}</span> · ${boldMe(c[1])} · ${esc(c[3])}</p></li>`).join("");
+
+// Projects
+const PR = [
+["2019–2022","PI","Cities, Industry Agglomeration and Regional Development: Case of India","Economic Research Institute for ASEAN and East Asia (ERIA), Jakarta"],
+["2019–2021","Co-PI","Impact of Agricultural Interventions on Farmers' Well-being: Evidence from Semi-Arid Regions of Rural India","ICSSR, New Delhi — IMPRESS programme"],
+["2018–2019","PI","An Analysis of Financial and Investment Policies of Limited Liability Partnership (LLP) Firms","Ministry of Corporate Affairs, Government of India"],
+["2014–2016","PI","Access to Finance among SMEs in India: The Role of Gender and Caste","ICSSR, New Delhi"],
+["2013–2015","Co-PI","Coping Costs and Water Scarcity: A Study of Chennai City","South Asian Network for Development and Environmental Economics (SANDEE)"],
+["2013","PI","Barriers to Growth among Informal Sector Firms in India","Asian Institute of Management, Manila & IDRC"]
+];
+document.getElementById("projList").innerHTML = PR.map(p=>`<li><span class="d">${p[0]}</span><div><p class="t">${esc(p[2])}</p><p class="s"><span class="tag">${p[1]}</span>${esc(p[3])}</p></div></li>`).join("");
+
+// Alumni
+const AL = [
+["2025","Sarthak Basu","Essays on Misallocation in Indian Manufacturing","Assistant Professor, MAHE Bengaluru"],
+["2024","Chandrakanti Behra","Foreign Direct Investment and Spillover Effects","Assistant Professor, TAPMI Bengaluru"],
+["PhD","Ketan Reddy","Global Value Chains","Assistant Professor, IIM Raipur"],
+["2020","Renjith R","Agglomeration and Foreign Direct Investment","Assistant Professor, IIM Kozhikode"],
+["2019","Radeef Chundakkadan","Monetary Policy Operation in India","Assistant Professor, IIT Bombay"],
+["2017","Padmaja M","Financial Constraints and Firm Internationalization: A Case Study of India","Assistant Professor, NIT Trichy"]
+];
+document.getElementById("alumni").innerHTML = AL.map(a=>`<li><span class="y">${a[0]}</span><span><span class="nm">${a[1]}</span><span class="th">${esc(a[2])}</span></span><span class="pl">${a[3]}</span></li>`).join("");
+
+// Op-eds
+const OP = [
+["EU–India FTA: A mixed blessing for MSMEs","The Hindu BusinessLine","","Subash S."],
+["Empowering MSMEs: The promise and challenges of GST 2.0","The Hindu BusinessLine","","Subash S."],
+["Time to revive demand in the handloom sector","The Hindu BusinessLine","",""],
+["Women entrepreneurs — looking beyond the numbers","The Hindu BusinessLine","",""],
+["Why MSMEs need more liquidity","Open","",""],
+["Reversing deglobalisation","The Hindu BusinessLine","",""],
+["What's in the bag for MSMEs","DT Next","",""],
+["India should not miss the ‘green value chain’ bandwagon","The Hindu BusinessLine","",""],
+["Servicification is the key to India's $5 trillion economy target","Moneycontrol","",""],
+["Digitisation as a survival strategy","The Hindu BusinessLine","",""],
+["Global Innovation Index 2021: India needs a big push in infrastructure","Moneycontrol","Sep 2021","with Ketan Reddy"],
+["To turbocharge the economy, focus on FDIs and sustainable recovery","Moneycontrol","Aug 2021","with Ketan Reddy"],
+["Building a $5-trillion economy","The Indian Express","Jan 2021","with Ketan Reddy"],
+["Create a special fund to make MSMEs smarter","Open","Jul 2020","with Ketan Reddy"],
+["A new strategy is needed to rejuvenate India's healthcare sector","The Indian Express","May 2020","with Janak Nabar, Ketan Reddy, Dipti Singhania"],
+["Battered by lockdown, MSMEs are up against a wall","Open","May 2020","with Ketan Reddy"],
+["Is the manufacturing tide shifting away from China?","Open","Apr 2020","with Ketan Reddy"],
+["Business ethics during Covid-19","The Hindu BusinessLine","Apr 2020","with Ketan Reddy"],
+["In Covid times, a revival package for businesses is a must as well","The Hindu BusinessLine","Mar 2020","with Ketan Reddy"],
+["Covid-19, an opportunity for Indian industry","The Hindu BusinessLine","Mar 2020",""]
+];
+document.getElementById("oped").innerHTML = OP.map(o=>`<li><span class="t">${esc(o[0])}</span><span class="o">${o[1]}${o[2]?" · "+o[2]:""}</span>${o[3]&&o[3]!=="Subash S."?`<span class="x">${esc(o[3])}</span>`:""}</li>`).join("");
+
+// Active nav highlight
+const links=[...document.querySelectorAll("#nav a")];
+const secs=links.map(a=>document.querySelector(a.getAttribute("href")));
+function spy(){let i=0;secs.forEach((s,j)=>{if(s.getBoundingClientRect().top<160)i=j});links.forEach((a,j)=>a.classList.toggle("on",j===i));}
+addEventListener("scroll",spy,{passive:true}); spy();
+</script>
+</body>
+</html>
